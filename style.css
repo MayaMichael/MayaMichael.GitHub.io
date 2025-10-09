@@ -38,7 +38,7 @@ body {
 
    /* main container area beneath menu */
    main {
-       background: #F7E3BF;
+       background: #f7e3bf;
        display: flex;
    }
    .sidebar {
@@ -72,14 +72,38 @@ body {
          }
 
          #portfolio li {
-             background: #fff;
+             background: /* portfolio styles */
+         .content h1 {
+             color: black;
+         }
+
+         #portfolio {
+             list-style-type: none;
+             padding-left: 0;
+         }
+
+         #portfolio li {
+             background: #f8d471c7;
              padding: 10px;
              border-radius: 10px;
              margin-bottom: 10px;
          }
 
          #portfolio li:hover {
-             background: #eee;
+             background: #f3b684;
+         }
+
+         #portfolio a {
+             text-decoration: none;
+             color: #454545;
+         }
+             padding: 10px;
+             border-radius: 10px;
+             margin-bottom: 10px;
+         }
+
+         #portfolio li:hover {
+             background: #926b30;
          }
 
          #portfolio a {
